@@ -16,8 +16,6 @@ http://localhost:8080/h2-console
 
 ## Instruções de Implementação
 
-
-
 No  projeto "ecommerce" desenvolvido no Checkpoint 2:
 
 1 - Criar as entidades
@@ -61,3 +59,38 @@ Item de Pedido
 3 - Criar camada de persistencia
 
 4 - Criar endpoints CRUD usando DTOs para as entidades
+
+- 4.1 Feature - CRUD Cliente
+- 4.1.1 criar endpoint para listar clientes
+```
+git checkout -b feature/listar_cliente
+git push --set-upstream origin feature/listar_cliente
+```
+- 4.1.2 criar endpoint para pesquisar cliente por ID
+- 4.1.3 criar endpoint para criar cliente
+- 4.1.4 criar endpoint para alterar cliente
+- 4.1.5 criar endpoint para excluir cliente
+
+
+
+
+
+
+### Git Flow
+
+- branch develop a partir da master
+```
+git checkout -b develop
+git push --set-upstream origin develop
+```
+
+
+
+## Referencias
+
+- https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+- http://h2database.com/html/functions.html
+- https://www.baeldung.com/entity-to-and-from-dto-for-a-java-spring-application
+- https://www.baeldung.com/java-dto-pattern
+- https://www.baeldung.com/java-instant-to-string
+

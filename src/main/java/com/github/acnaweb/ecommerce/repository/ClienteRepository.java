@@ -6,6 +6,7 @@ import org.springframework.stereotype.Repository;
 import com.github.acnaweb.ecommerce.model.Cliente;
 
 @Repository
-public interface ClienteRepository extends JpaRepository<Cliente, Long> {
+public interface ClienteRepository 
+	extends JpaRepository<Cliente, Long> {
 
 }
